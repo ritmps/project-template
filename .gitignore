@@ -206,3 +206,6 @@ docs/poster/*.html
 *.bak
 *.swp
 *.swo
+
+.DS_Store
+Thumbs.db

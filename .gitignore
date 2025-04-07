@@ -172,3 +172,37 @@ cython_debug/
 
 # PyPI configuration file
 .pypirc
+
+# Quarto build outputs
+docs/_site/
+docs/.quarto/
+
+# Quarto intermediate outputs
+*.utf8.md
+*.knit.md
+*.qmd~
+*.nb.html
+
+# Manuscript and PDF builds
+*.aux
+*.log
+*.out
+*.toc
+*.lof
+*.lot
+*.bbl
+*.blg
+*.fls
+*.fdb_latexmk
+*.synctex.gz
+*.pdf
+
+# Reveal.js and HTML slide exports
+docs/slides/*.html
+docs/poster/*.html
+
+# Backup and temporary files
+*~
+*.bak
+*.swp
+*.swo

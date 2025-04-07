@@ -1,0 +1,29 @@
+project:
+  type: website
+  output-dir: _site
+
+website:
+  title: "Lab Project Site"
+  site-url: https://your-org.github.io/your-project/
+  repo-url: https://github.com/your-org/your-project
+  repo-actions: [edit, issue]
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home
+      - href: roundtrip.qmd
+        text: EXR Roundtrip
+
+format:
+  html:
+    theme: cosmo
+    toc: true
+    toc-location: left
+    number-sections: false
+    title-block-style: manuscript
+    title-block-banner: "#F76902"          # Primary RIT orange
+    title-block-banner-color: "#F0F3F4"    # Pale gray/white contrast
+    date-format: "Last built on MMM D, YYYY"
+    css: styles.css
+    mermaid:
+      theme: default

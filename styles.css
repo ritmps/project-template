@@ -1,0 +1,52 @@
+
+# styles.css content
+/* Base tweaks */
+body {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  background-color: #fdfdfd;
+}
+
+/* RIT-style banner override */
+.title-block-banner {
+  background-color: #F76902 !important;
+  color: #1A1A1A !important;
+  border-bottom: 4px solid #1A1A1A;
+}
+
+/* Headings */
+h1, h2, h3 {
+  color: #DA291C;
+  font-weight: 600;
+}
+
+/* Navigation tweaks */
+.navbar {
+  background-color: #F76902;
+}
+.navbar a {
+  color: white !important;
+}
+.navbar a:hover {
+  color: #F0F3F4 !important;
+}
+
+/* Code blocks */
+pre, code {
+  background-color: #f4f4f4;
+  color: #1A1A1A;
+  border-radius: 4px;
+  font-size: 0.9em;
+}
+
+/* Mermaid diagrams */
+.mermaid {
+  background-color: #ffffff;
+}
+
+/* Footer */
+.footer {
+  font-size: 0.85em;
+  color: #888;
+  text-align: center;
+  padding-top: 1em;
+}

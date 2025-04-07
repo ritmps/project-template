@@ -1,0 +1,35 @@
+---
+title: "Title of the Manuscript"
+author: "Your Name"
+date: today
+format:
+  pdf:
+    documentclass: article
+    number-sections: true
+    toc: true
+bibliography: ../references.bib
+filters:
+  - crossref
+---
+
+# Introduction
+
+This is a manuscript scaffold supporting citations [@pharr2016physically], equations, and code.
+
+## Methods
+
+You can include figures like this:
+
+![An example figure.](../figs/example-figure.png){#fig:example}
+
+## Results
+
+```{.python}
+print("Results go here.")
+```
+
+## Discussion
+
+More citations? See @hunter2007matplotlib.
+
+## References

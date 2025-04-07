@@ -1,0 +1,11 @@
+{
+  "recommendations": [
+    "ms-python.python",
+    "ms-toolsai.jupyter",
+    "wolfram.wolfram",
+    "quarto.quarto",
+    "esbenp.prettier-vscode",
+    "eamodio.gitlens",
+    "ms-vscode.makefile-tools"
+  ]
+}

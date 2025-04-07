@@ -1,0 +1,31 @@
+---
+title: "Project Presentation"
+author: "Your Name"
+format:
+  revealjs:
+    theme: simple
+    slide-number: true
+    transition: fade
+    chalkboard: true
+    center: true
+    css: ../styles/styles.css
+bibliography: ../references.bib
+---
+
+## Welcome
+
+---
+
+## Background
+
+---
+
+## Key Ideas
+
+```{.python}
+print("Live code examples")
+```
+
+---
+
+## References

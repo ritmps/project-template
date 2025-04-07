@@ -1,0 +1,19 @@
+name: Render Slides
+
+on:
+  push:
+    paths:
+      - 'docs/slides/*.qmd'
+      - 'docs/styles/*.css'
+
+jobs:
+  render:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - uses: quarto-dev/quarto-actions/setup@v2
+        with:
+          version: "latest"
+      - name: Render Slides
+        run: |
+          quarto render docs/slides/template-talk.qmd

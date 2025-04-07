@@ -1,0 +1,43 @@
+---
+title: "Lab Project Documentation"
+format:
+  html:
+    toc: true
+    toc-location: left
+    theme: cosmo
+    css: styles/styles.css
+    number-sections: false
+---
+
+# 📚 Welcome to the Project Docs
+
+This site serves as the central hub for documentation, manuscripts, posters, and presentations associated with this research project.
+
+## 🔬 Manuscript
+
+Our main publication draft can be found here:
+
+- [Manuscript Template](manuscript/template-manuscript.qmd)
+
+## 🧾 Poster
+
+Designed for conference or in-lab presentation:
+
+- [Poster Template](poster/template-poster.qmd)
+
+## 🎤 Slides
+
+Slide deck used for presentations and talks:
+
+- [Talk Template](slides/template-talk.qmd)
+
+## 📎 References
+
+All citations are shared using a common [references.bib](references.bib) file and rendered automatically by Quarto.
+
+## 🛠 Notes
+
+- Quarto supports export to PDF, HTML, Word, and more.
+- All templates are ready to be adapted and reused.
+- Styling and behavior is controlled by `styles/styles.css`.
+

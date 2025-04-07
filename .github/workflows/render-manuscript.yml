@@ -1,0 +1,19 @@
+name: Render Manuscript PDF
+
+on:
+  push:
+    paths:
+      - 'docs/manuscript/*.qmd'
+      - 'docs/references.bib'
+
+jobs:
+  render:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - uses: quarto-dev/quarto-actions/setup@v2
+        with:
+          version: "latest"
+      - name: Render PDF Manuscript
+        run: |
+          quarto render docs/manuscript/template-manuscript.qmd --to pdf

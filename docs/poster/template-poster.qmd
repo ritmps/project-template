@@ -1,0 +1,23 @@
+---
+title: "Project Poster Title"
+author: "Your Name"
+format:
+  html:
+    theme: cosmo
+    css: ../styles/styles.css
+    page-layout: full
+    title-block-banner: "#F76902"
+    title-block-banner-color: "#F0F3F4"
+    toc: false
+poster: true
+---
+
+## Introduction
+
+## Methods
+
+## Results
+
+## Conclusions
+
+## References

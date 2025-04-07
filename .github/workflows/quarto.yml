@@ -1,0 +1,32 @@
+name: Quarto Publish to GitHub Pages
+
+on:
+  push:
+    branches: [main]  # or 'master' if that’s your default
+
+jobs:
+  build-deploy:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      pages: write
+      id-token: write
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v3
+
+      - name: Setup Quarto
+        uses: quarto-dev/quarto-actions/setup@v2
+
+      - name: Render Quarto project
+        run: quarto render docs
+
+      - name: Upload rendered site
+        uses: actions/upload-pages-artifact@v2
+        with:
+          path: docs/_site
+
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v2

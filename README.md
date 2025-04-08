@@ -8,18 +8,19 @@ This repository is a template for setting up research projects in our lab. It su
 project-template/
 ├── .vscode/               # VSCode settings and extension recommendations
 ├── .github/               # GitHub Actions workflows and issue templates
+├── .gitattributes         # Git LFS configuration
 ├── data/                  # Raw input data (or references to external datasets)
+├── docs/                  # Documentation, paper drafts, Quarto site
 ├── notebooks/             # Wolfram, Jupyter, Quarto notebooks and packages
 ├── results/               # Outputs, plots, processed data
 ├── scripts/               # Python/Wolfram scripts for analysis and workflows
-├── docs/                  # Documentation, paper drafts, Quarto site
-├── environment.yml        # Conda environment definition (via Miniforge3)
-├── quarto.yml             # Quarto site configuration
-├── Makefile               # Setup and cleanup utilities
 ├── CITATION.cff           # Citation metadata
+├── environment.yml        # Conda environment definition (via Miniforge3)
 ├── LICENSE                # Project license
-├── .gitattributes         # Git LFS configuration
-└── README.md              # This file
+├── Makefile               # Setup and cleanup utilities
+├── README.md              # This file
+├── references.bib         # BibTeX references for citations
+└── version.json           # Project versioning
 ```
 
 ## 🚀 Getting Started
